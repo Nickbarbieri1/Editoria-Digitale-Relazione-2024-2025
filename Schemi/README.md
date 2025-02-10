@@ -1,0 +1,2 @@
+Questa cartella contiene tutti i file relativi agli schemi ASIS e TOBE del prodotto editoriale, sia in formato .png che in formato .svg
+Tali schemi sono stati prodotti mediante l'editor online di [Visual Paradigm](https://www.visual-paradigm.com/).
