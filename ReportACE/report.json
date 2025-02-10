@@ -1,0 +1,291 @@
+{
+  "@type": "earl:report",
+  "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
+  "dct:title": "Ace Report",
+  "dct:description": "Report on automated accessibility checks for EPUB",
+  "dct:date": "10/02/2025, 23:33:43",
+  "earl:assertedBy": {
+    "@type": "earl:software",
+    "doap:name": "DAISY Ace",
+    "doap:description": "DAISY Accessibility Checker for EPUB",
+    "doap:homepage": "http://daisy.github.io/ace",
+    "doap:created": "2017-07-01",
+    "doap:release": {
+      "doap:revision": "1.3.6"
+    }
+  },
+  "outlines": {
+    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n      <li>\n        Start\n      </li>\n    </ol>",
+    "headings": "<ul><li><span class=\"toc-h1\">Introduzione</span><ul><li><span class=\"toc-h2\">DSA: defininzione e concezione sociale</span></li></ul></li><li><span class=\"toc-h1\">Table of Contents</span><ul><li><span class=\"toc-h2\">Landmarks</span></li></ul></li><li><span class=\"toc-h1\">Fonti</span><ul><li><span class=\"toc-h2\">Articoli</span><li><span class=\"toc-h2\">Siti</span></li></ul></li><li><span class=\"toc-h1\">Testi accessibili</span><ul><li><span class=\"toc-h2\">I testi: ostacolo invalicabile?</span><ul><li><span class=\"toc-h3\">Il font: un valido aiuto</span><li><span class=\"toc-h3\">Piccolo esempio pratico</span><li><span class=\"toc-h3\">L'importanta della sintassi</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Immagini per la didattica</span><ul><li><span class=\"toc-h2\">Foto e pittogrammi per imparare</span><ul><li><span class=\"toc-h3\">Esempio esercizio</span></li></ul></li></ul></li></ul>",
+    "html": "<ol><li></li></ol>"
+  },
+  "data": {
+    "audios": [
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Introduzione_01.mp3\" type=\"audio/mpeg\" />\n  \n    Your browser does not support the audio element.</audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Introduzione_01.mp3",
+            "type": "audio/mpeg",
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Introduzione_01.mp3"
+          }
+        ],
+        "location": "Text/Introduzione.xhtml#epubcfi(/4/6)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_01.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_01.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/8)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_02.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_02.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_02.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/16)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_03.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_03.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_03.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/28)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_04.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_04.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_04.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/36)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_immagini_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_immagini_01.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_immagini_01.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/8)"
+      }
+    ],
+    "images": [
+      {
+        "src": "OEBPS/Images/Casa.png",
+        "alt": "Immagine_casa",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Casa.png\" alt=\"Immagine_casa\" />",
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/18/4/2)"
+      },
+      {
+        "src": "OEBPS/Images/Cane.png",
+        "alt": "Immagine_cane",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Cane.png\" alt=\"Immagine_cane\" />",
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/18/8/2)"
+      },
+      {
+        "src": "OEBPS/Images/Fabbrica.png",
+        "alt": "Immagine_fabbrica",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Fabbrica.png\" alt=\"Immagine_fabbrica\" />",
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/18/12/2)"
+      },
+      {
+        "src": "OEBPS/Images/Poliziotto.png",
+        "alt": "Immagine_poliziotto",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Poliziotto.png\" alt=\"Immagine_poliziotto\" />",
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/18/16/2)"
+      }
+    ]
+  },
+  "properties": {
+    "hasManifestFallbacks": false,
+    "hasBindings": false,
+    "hasSVGContentDocuments": false,
+    "hasFormElements": false,
+    "hasMathML": false,
+    "hasPageBreaks": false
+  },
+  "earl:testSubject": {
+    "url": "../ProdottoFinale/Progetto esame.epub",
+    "metadata": {
+      "dc:language": "it",
+      "dc:title": "DSA: Manuale d'uso - Tecniche e consigli per lo sviluppo di contenuti accessibili",
+      "dc:description": "Manuale per i genitori di bambini e ragazzi DSA con consigli, esempi e linee guida per la creazione di un ambiente favorevole allo sviluppo delle competenze linguistiche e sociali",
+      "dc:format": "application/epub+zip",
+      "dc:date": "2025-02-07T23:59:00Z",
+      "dc:creator": "Barbieri, Nicolo'",
+      "dc:subject": [
+        "DSA",
+        "Disturbi specifici di apprendimento",
+        "genitori",
+        "Didattica inclusiva",
+        "Accessibilita'"
+      ],
+      "dc:type": [
+        "Text",
+        "Sound",
+        "Image"
+      ],
+      "dc:identifier": "urn:uuid:bd9bf00e-7223-4a8c-9f88-4f6d531281cd",
+      "dcterms:modified": "2025-02-10T23:32:36Z",
+      "schema:accessMode": [
+        "textual",
+        "visual",
+        "auditory"
+      ],
+      "schema:accessModeSufficient": "textual,visual",
+      "schema:accessibilityFeature": [
+        "alternativeText",
+        "audioDescription",
+        "displayTransformability",
+        "highContrastAudio",
+        "highContrastDisplay",
+        "index",
+        "largePrint",
+        "readingOrder",
+        "structuralNavigation",
+        "tableOfContents"
+      ],
+      "schema:accessibilityHazard": [
+        "flashing",
+        "noMotionSimulationHazard",
+        "sound"
+      ],
+      "schema:accessibilitySummary": "In addition to meeting accessibility standards, this publication includes audio description file for each text; these audio files are not necessary for the correct understanding of the content, but are optional.",
+      "Sigil version": "2.4.2"
+    },
+    "links": {},
+    "epubVersion": "3.0"
+  },
+  "a11y-metadata": {
+    "missing": [
+      "a11y:certifiedBy",
+      "a11y:certifierCredential",
+      "a11y:certifierReport",
+      "dcterms:conformsTo"
+    ],
+    "empty": [],
+    "present": [
+      "schema:accessMode",
+      "schema:accessibilityFeature",
+      "schema:accessibilityHazard",
+      "schema:accessibilitySummary",
+      "schema:accessModeSufficient"
+    ]
+  },
+  "assertions": [
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "/OEBPS/Text/nav.xhtml"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "OEBPS/content.opf",
+        "dct:title": "DSA: Manuale d'uso - Tecniche e consigli per lo sviluppo di contenuti accessibili"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Introduzione.xhtml",
+        "dct:title": "Introduzione"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/nav.xhtml",
+        "dct:title": "ePub NAV"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Fonti.xhtml",
+        "dct:title": "Fonti"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Capitolo_tecniche_testo.xhtml",
+        "dct:title": "Tecniche-Testo"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Capitolo_tecniche_immagini.xhtml",
+        "dct:title": "Tecniche-Immagini"
+      }
+    }
+  ],
+  "earl:result": {
+    "earl:outcome": "pass"
+  }
+}
