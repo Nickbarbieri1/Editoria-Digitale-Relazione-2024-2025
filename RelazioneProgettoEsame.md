@@ -1,7 +1,7 @@
 ---
 title: Relazione del progetto d'esame di Editoria Digitale
-author: Nome Cognome matricola studente
-date:  a.a. 2023/2024
+author: Nicolo' Barbieri 33244A
+date:  a.a. 2024/2025
 institute: Università degli Studi di Milano
 course: Editoria Digitale
 tags: tag1, tag2, tag3
@@ -13,70 +13,174 @@ csl: IEEE.csl
 
 ![Logo UNIMI](./logo/minerva.jpg){width=100px height=100px}
 
-# Titolo Progetto d'Esame
-sottotitolo
+# DSA: Manuale d'uso
+Tecniche e consigli per lo sviluppo di contenuti accessibili
 
 
 ## Introduzione
 
-Breve descrizione del progetto toccando i punti più importanti affrontati nel documento.
-*Obiettivi*, *tecnologie*, aspetti salienti del *flusso di gestione documentale*, *risultati* raggiunti.  
+Il progetto e' incentrato sulla realizzazione di un libro digitale da fornire ai genitori di bambini e ragazzi affetta di Disturbi specifici di apprendimento (DSA) che racchiude i consigli e le linee guida citati dai principali enti ed organizzazioni per la produzione di contenuti accessibili anche dalle persone piu' fragili. Il prodotto finale e' esso stesso accessibile alla lettura da parte delle persone affette da DSA e, per riuscire a garantire cio', si e' scelto di produrre un ebook in formato Epub3, cosi' da poter contenere immagini e audio che rendessero anche le parti piu' difficili leggibili da tutti.
+L'ebook e' stato realizzato utilizzando Sigil per la gestione dei vari file; inoltre, il flusso documentale e' stato incentrato principalmente sulla ricerca di contenuti pertinenti al tema considerato e privi di copyright, sulla realizzazione di una struttura semplice e facilmente navigabile anche dalle persone fragili grazie all'applicazione diretta di tutte le guidelines citate dal libro stesso.
 
 ## Ideazione 
 
 ### Tema
-Identificare i temi che il prodotto editoriale dovrà presentare. Evidenziare le domande frequenti, i bisogni insoddisfatti, gli argomenti correlati e la tendenza dell'attenzione su questi temi. 
 
-![UNIMI](https://www.erasmusmilan.com/wp-content/uploads/2016/02/Statale-e1478865636847.jpg)
+Il prodotto editoriale dovra' riportare le tecniche principali che vengono impiegate ampiamente in ambito scolastico per la produzione dei materiali didattici, citando anche le fonti e gli enti che le sostengono, assieme ad alcuni esempi, cosi' da mostrare ai genitori sia degli esempi pratici da seguire sia per dimostrare la fattibilita' della produzione di contenuti accessibili e comprensibili dai loro figli affetti da fragilita'.
+In linea con i consigli e le tecniche citate dalle organizzazioni preposte, il prodotto editoriale dovra' essere strutturato per includere anche strumenti complementare di supporto (immagini, video, file audio) per abbattere le barriere cognitive e permettere la comprensione degli esempi ed, eventualmente, dei contenuti dei paragrafi anche ai ragazzi fragili.
 
 ### Destinatari
-Descrivere i destinatari del prodotto editoriale utilizzando la tecnica delle personas. Descrivere alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.
+
+I destinatari del prodotto editoriale, come gia' ampiamente descritto, sono i genitori dei bambini e dei ragazzi affetti da Disturbi specifici di apprendimento (DSA).
+
+#### Personas
+
+Per simulare gli utenti che utilizzeranno il prodotto finale sono stati creati due profili Personas distinti.
+
+<a href="./Personas/Personas Amina Maudo Watson.png"><img src="./Personas/Personas Amina Maudo Watson.png" name="Personas_Amina_Maudo_Watson" width="750" height="800"></a>
+<a href="./Personas/Personas Peter Davis.png"><img src="./Personas/Personas Peter Davis.png" name="Personas_Peter_Davis" width="750" height="800"></a>
+
+#### Scenari d'uso
+
+***Scenario 1:*** Lettura sequenziale dell'ebook
+
+1. Apertura dell'ebook;
+2. Accesso all'indice per visualizzare l'organizzazione del documento e la lista dei capitoli e relativi sottocapitoli;
+3. Accesso al primo capitolo e inizio lettura del documento;
+4. Lettura di tutte le pagine di cui e' composto il documento fino alla fine.
+
+***Scenario 2:*** Audiolettura del libro (lettura del contenuto del libro mediante i file audio presenti)
+1. Apertura dell'ebook;
+2. Accesso all'indice per visualizzare l'organizzazione del documento;
+3. Selezione del capitolo che si vuole ascoltare;
+4. Riproduzione dei singoli file audio presenti all'interno del capitolo.
+
 
 
 ### Modello di fruizione
-Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. Quali modelli di lettura e di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? Quali aspetti di innovazione possiamo proporre? Nella qualità dei contenuti o nel processo di fruizione?
+
+Per soddisfare a pieno l'obiettivo di accessibilita', il prodotto editoriale deve verificare gli standard di accettazione di EPUB Accessibility 1.1 definiti dal W3C. Il formato scelto per l'ebook, ePub3, consente l'implementazione di una lettura non lineare, utile soprattutto ai lettori affetti da DSA che quindi, mediante l'inserimento di contenuti audio-visivi quali immagini, video e file audio, possono usufruire delle conoscenze contenute nel libro in maniera semplificata, abbattendo totalmente le barriere cognitive che renderebbero loro difficile la totale comprensione delle nozioni descritte all'interno dei capitoli.
 
 ### Canali di distribuzione
-Presentare i canali di distribuzione che si intendono raggiugnere e i formati dati richiesti da ogni canale. Esempi di canali sono: (i) Web, (ii) Social, (iii) Market place, (iv) Intranet. Esempi di formati. (i) Word, (ii) ePub, (iii) CBZ, (iv) PDF, (v) WebBook. 
-Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. Nel settore esistono classi di documento standard? Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? Lo stile sarà orientato verso un'espressione formale o informale?
+
+Il prodotto finale e' distribuito mediante le principali piattaforme online di ebook (Amazon Kindle, Apple Books, Google Play Books, Kobo, ecc.) in formato .epub per essere facilmente leggibile da tutti gli ereader; inoltre, grazie all'uso di specifiche applicazioni per la lettura di ebook, si ha la possibilita' di consultare agilmente e senza alcun tipo di problema di compatibilita' il prodotto editoriale anche attraverso smartphone.
+Nel caso in cui gli utenti non dovessero disporre di questi dispositivi, grazie all'uso del formato scelto, il prodotto e' consultabile anche mediante computer attraverso i programmi opportuni (Calibre, applicazioni di ebook reader online, ecc.).
+Il prodotto finale e' stato realizzato rispettando tutte le principali linee guida pubblicate dagli enti e dalle organizzazioni riconosciute nel campo dei DSA, quindi cerca di ridurre al minimo l'uso di grafiche complesse e prediligere la semplicita':
+
+* il font utilizzato e' adatto alla lettura da parte di persone affette da dislessia;
+* le frasi sono, per quanto possibile, brevi e prive di costrutti sintattici complessi;
+* i capitoli sono esaurienti e presentano pochi sottocapitoli ciascuno, per semplificare ancora di piu' la struttura del documento:
+* il lessico utilizzato e' diretto e conviviale, per non appesantire troppo i paragrafi e rendere la lettura pesante da parte degli utenti finali.
 
 ## Processo di Produzione
 
 ### Acquisizione dei contenuti
-Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: (i) disponibili come fonti libere, (ii) generabili automaticamente, (iii) richiedono un lavoro di redazione manuale.
+Le fonti utilizzate per la scrittura del prodotto editoriale sono principalmente provenienti da organizzazioni, enti incentrati sul tema e fonti ufficiali quali ministeri (es. MIUR) per garantire la massima correttezza del contenuto dal punto di vista delle conoscenze.
+I documenti utilizzati sono spesso diffusi come linee guida in maniera pubblica e quindi sono privi di copyright; nel caso in cui fossero coperte da copyright, essendo che il prodotto che stiamo andando a realizzare e' per scopi didattici ed educativi senza scopo di lucro, tale uso ricade all'interno del cosiddetto Fair Use.
+Essendo che sono presenti molti documenti e ricerche relative all'argomento, le fonti saranno quasi totalmente in italiano; nel caso in cui venissero usati documenti in lingua inlgese, utilizzerei degli strumenti di traduzione affidabili (es. DeepL, Google Traduttore solo con frasi verificate) per garantire il minimo errore di conversione.
+Le immagini presenti all'interno del prodotto finale vengono scelte in base al copyright, facendo in modo di utilizzare solamente file privi di copyright.
+Per concludere, i file audio contenenti le trascrizioni testuali vengono generati automaticamente mediante l'uso di opportuni tool.
 
 ### Gestione documentale
 
 Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le  fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
 
+#### Raccolta dei contenuti e definizione struttura prodotto
 ```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+flowchart LR    
+    id1([Decisione dei temi da affrontare])
+    id2(Ricerca e validazione delle fonti)
+    id3{Stesura bozza Ebook}
+    id4([Generazione bibiografia])
+    id5([Stesura bozza testo])
+    id6([Generazione stile grafico])
+    id7([Inserimento elementi interattivi])
+    id8([Ricerca immagini])
+    id9([Generazione file audio])
+    id10([Bozza testo completa])
+    id11([Definizione elementi grafici ebook])
+    id12{Revisione finale pre-distribuzione}
+    id13(Generazione ebook finale)
+
+    id1 --> id2 --> id3
+    id3 --> id4
+    id3 --> id5
+    id5 --> id10
+    id3 --> id11
+    id11 --> id6
+    id11 --> id7
+    id11 --> id8
+    id11 -->id9
+    id9 -->id12
+    id8 --> id12
+    id7 --> id12
+    id6 -->id12
+    id10 -->id12
+    id12 --> id13
 ```
+#### Strutturazione dei contenuti
+
 ```mermaid
 flowchart LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+    id1{{Bozza del testo}}
+    id2(Controllo ortografico)
+    id3(Controllo lessicale e logico)
+    id4([Suddivisione in capitoli])
+    id5(Inserimento link interni)
+    id6(Inserimento elementi interattivi)
+    id7((Revisione finale del documento))
+
+    id1 --> id4
+    id4 --> id2
+    id4 --> id3
+    id1 --> id6
+    id3 --> id5
+    id4 --> id5
+    id5 --> id7
+    id6 --> id7
+```
+
+#### Definizione e applicazione dello stile grafico
+
+```mermaid
+flowchart LR
+
+    id1([Creazione dei fogli di stile base])
+    id2(Aggiunta del font personalizzato)
+    id3([Impaginazione immagini])
+    id4(Riadattare impaginazione paragrafi)
+    id5([Verifica dei requisiti di accessibilita' di W3C])
+    id6([Verifica dello standard W3C sui fogli di stile])
+    id7(Verifiche sulla grafica)
+
+    id1 --> id2
+    id2 --> id3
+    id2 -->id4
+    id4 --> id7
+    id7 --> id5
+    id7 -->id6
 ```
 
 ### Tecnologie adottate
 
 Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
 
-|                |Scenario 1                          |Scenario 2                       |
-|----------------|-------------------------------|-----------------------------|
-|Markdown |`'Isn't this fun?'`            |'Isn't this fun?'            |
-|XSLT       |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|ePud         |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+| Tecnologia               | Funzionalita' d'uso all'interno del progetto                                                                                                                                                                                                                                            |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sigil                    | Creazione dei file necessari per la generazione dell'ePub.  E' un software che contiene anche plugin ed altre funzionalita' per la definizione dei metadati; consente di definire i file XHTML per strutturare i vari capitoli, ed i file CSS per la definzione dello stile dell'ebook. |
+| Markdown Table Generator | Strumento online per semplificare la generazione delle tabelle in Markdown necessarie per la relazione                                                                                                                                                                                  |
+| Visual Paradigm Online   | Strumento online per la definizione degli schemi AS_IS e TO_BE implementati nella relazione                                                                                                                                                                                             |
+| XHTML                    | Formato per la definizione della struttura del prodotto finale                                                                                                                                                                                                                          |
+| CSS                      | Usato per la definizione dello stile dell'ebook                                                                                                                                                                                                                                         |
+| Luvvoice                 | Strumento software per generare i file audio a partire dal testo                                                                                                                                                                                                                        |
+| Figma                    | Strumento software usato per la definizione dei profili Personas                                                                                                                                                                                                                        |
+| ACE                      | Tool da linea di comando per verificare l'accessibilita' dell'ebook rispetto agli standard WCAG e ePub Accessibility 1.1                                                                                                                                                                |
+| Github                   | Software usato per gestire il versioning del progetto e per gestire il flusso di produzione                                                                                                                                                                                             |
+| Mermaid                  | Software usato per la creazione dei diagrammi di flusso presenti all'interno della relazione                                                                                                                                                                                            |
+| Apple Libri              | Software utilizzato per la visualizzazione finale del progetto e per simulare l'apertura dell'epub da parte degli utenti finali                                                                                                                                                         |
 
 ### Esecuzione del flusso
-Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.  
-
+Accedendo al seguente [repository](https://github.com/Nickbarbieri1/Editoria-Digitale-Relazione-2024-2025.git) si possono consultare tutti i file realizzati per la creazione dell'intero progetto e della relazione.
 ## Valutazione dei risultati raggiunti
 
 
@@ -86,7 +190,14 @@ Per valutare il contributo proposto valutare le diverse fasi del flusso in termi
  
 ### Confronto con lo stato dell'arte
 
-Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
+#### Schema ASIS
+![Schema ASIS](./Schemi/Schema%20ASIS.png)
+
+#### Schema TOBE
+
+![Schema TOBE](./Schemi/Diagramma%20TOBE.png)
+
+A primo impatto sembrerebbero non esserci grandi differenze tra i due schemi, ma prestando maggiore attenzione al contenuto dei vari blocchi viene evidenziato come, nello schema TOBE, siano stati automatizzati i passi relativi alla verifica dei vincoli relativi ai fogli di stile ed ai requisiti di accessibilita' dell'ePub3; inoltre, sono stati automatizzati anche i passi di modifica di eventuali errori all'interno del contenuto o del foglio di stile, mediante l'uso di software preposti a questi compiti.
 
 ### Limiti emersi
 
