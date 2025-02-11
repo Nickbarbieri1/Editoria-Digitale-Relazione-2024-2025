@@ -161,6 +161,22 @@ flowchart LR
     id7 -->id6
 ```
 
+#### Produzione ebook e distribuzione
+
+```mermaid
+flowchart LR
+
+id1(Creazione file .NCX e nax.XHTML)
+id2([Creazione del file .OPF])
+id3(Definizione dei metadati)
+id4([Compilazione del progetto])
+id5(Rilascio del prodotto sulle piattaforme digitali)
+
+id2 --> id1
+id1 --> id3
+id3 --> id4 --> id5
+```
+
 ### Tecnologie adottate
 
 Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
@@ -178,6 +194,7 @@ Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo
 | Github                   | Software usato per gestire il versioning del progetto e per gestire il flusso di produzione                                                                                                                                                                                             |
 | Mermaid                  | Software usato per la creazione dei diagrammi di flusso presenti all'interno della relazione                                                                                                                                                                                            |
 | Apple Libri              | Software utilizzato per la visualizzazione finale del progetto e per simulare l'apertura dell'epub da parte degli utenti finali                                                                                                                                                         |
+| Visual Studio Code       | IDE utilizzato in maniera complementare a Sigil per l'editing dei documenti XHTML e CSS                                                                                                                                                                                                 |
 
 ### Esecuzione del flusso
 Accedendo al seguente [repository](https://github.com/Nickbarbieri1/Editoria-Digitale-Relazione-2024-2025.git) si possono consultare tutti i file realizzati per la creazione dell'intero progetto e della relazione.
@@ -186,8 +203,10 @@ Accedendo al seguente [repository](https://github.com/Nickbarbieri1/Editoria-Dig
 
 ### Valutazione del flusso di produzione
 
-Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
- 
+Il prodotto finale che e' stato realizzato, a causa della grande frammentazione delle fonti che sono state consultate per la sua realizzazione, ha qualche problema dal punto di vista dell'uniformita'; questa frammentazione, che e' stata adottata anche nell'uso degli strumenti software per la produzione sia del prodotto digitale che di questa relazione, ha permesso di ridurre al minimo gli errori sintatti, ed ha permesso anche di accelerare il flusso di produzione.<br/>
+Il software che e' stato utilizzato per la produzione dell'ebook, Sigil, e' dotato di varie componenti per il controllo automatico degli errori all'interno della struttura del documento e delle pagine HTML che lo compongono, il che ha permesso di ridurre al minimo lo spreco di tempo; purtroppo, pero', all'interno dell'editor incluso nel software non e' presente la lingua italiana, il che mi ha portato ad utilizzare un ambiente esterno per velocizzare questo processo (e' stato utilizzato l'IDE Visual Studio Code).<br/>
+Il formato che si ha scelto di adottare, ovvero ePub3, consente di essere supportato su tutti i canali di distribuzione digitali, sia quelli ufficiali (ebook store), sia quelli non ufficiali (social, Internet, ecc.); inoltre, l'utilizzo di un formato standard consente la fruizione del prodotto a tutti gli utenti dotati di un dispositivo o una applicazione di lettura degli e-book.
+
 ### Confronto con lo stato dell'arte
 
 #### Schema ASIS
@@ -201,12 +220,16 @@ A primo impatto sembrerebbero non esserci grandi differenze tra i due schemi, ma
 
 ### Limiti emersi
 
-È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti
+Il principale limite che ho riscontrato nella produzione del prodotto editoriale e' stata la ricerca di programmi online che fossero contemporaneamente gratuiti ed efficaci: e' risultato difficile riuscire a trovare uno strumento valido per la generazione dei file audio a partire dalla descrizione testuale che avesse una pronuncia soddisfacente, con la possibilita' di modificare e selezionare la voce piu' adatta alla comprensione e che rispettasse le pause e gli accenti tonici delle parole utilizzate all'interno dei paragrafi.<br/>
+Inoltre, un altro grande limite con cui mi sono scontrato e' l'impossibilita', per gli utenti utilizzatori di computer Apple, di integrare all'interno di Sigil il plugin ACE per il controllo degli standard di accessibilita' dell'ebook; per le altre piattaforme esiste un plugin funzionante che integra il tool ACE da linea di comando all'interno della UI di Sigil, ma tale plugin non risulta funzionare per gli utilizzatori di Mac, il che ha reso il processo di verifica dell'ebook piu' lungo ed anche meno manutenibile.<br/>
+Infine, l'interfaccia grafica, ormai obsoleta, di Sigil ha richiesto un tempo maggiore nello sviluppo e nella comprensione delle funzioni messe a disposizione dall'applicazione, anche a causa di una documentazione scarsa o molto vecchia e ormai obsoleta.
 
 ## Conclusioni
 
-Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.
+Il prodotto editoriale finale risulta essere un po' scarno nella quantita' dei contenuti, e cita le principali tecniche mostrando qualche piccolo esempio, ma senza dilungarsi eccessivamente nella spiegazione delle basi pedagogiche e degli studi scientifici che hanno portato gli enti a proporre quegli strumenti didattici.<br/>
+Anche la forma grafica risulta essere abbastanza abbozzata, ma comunque efficace e sufficiente alla realizzazione di una prima versione del prodotto.<br/>
+Tutti gli scenari d'uso descritti all'interno della consegna risultano essere soddisfatti, per cui il lavoro si puo' ritenere possibile e completo per le richieste; l'uso di strumenti piu' avanzati, magari a pagamento, permetterebbe uno sviluppo piu' lineare, omogeneo e rapido dei contenuti, permettendo di arrivare a produrre un prodotto finale molto piu' professionale di quello ottenuto ora, ma ad un costo molto maggiore.
 
 ## Bibliografia e sitografia
 
-Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023]
+Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023,@pixabay,@w3c-css-verifier,@md-table-generator,@epub-accessibility,@daisy,@pexels,@luvvoice,@mermaid,@figma]
