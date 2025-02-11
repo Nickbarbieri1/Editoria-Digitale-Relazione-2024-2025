@@ -3,7 +3,7 @@
   "@context": "http://daisy.github.io/ace/ace-report-1.0.jsonld",
   "dct:title": "Ace Report",
   "dct:description": "Report on automated accessibility checks for EPUB",
-  "dct:date": "10/02/2025, 23:33:43",
+  "dct:date": "11/02/2025, 02:53:06",
   "earl:assertedBy": {
     "@type": "earl:software",
     "doap:name": "DAISY Ace",
@@ -15,92 +15,18 @@
     }
   },
   "outlines": {
-    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n      <li>\n        Start\n      </li>\n    </ol>",
-    "headings": "<ul><li><span class=\"toc-h1\">Introduzione</span><ul><li><span class=\"toc-h2\">DSA: defininzione e concezione sociale</span></li></ul></li><li><span class=\"toc-h1\">Table of Contents</span><ul><li><span class=\"toc-h2\">Landmarks</span></li></ul></li><li><span class=\"toc-h1\">Fonti</span><ul><li><span class=\"toc-h2\">Articoli</span><li><span class=\"toc-h2\">Siti</span></li></ul></li><li><span class=\"toc-h1\">Testi accessibili</span><ul><li><span class=\"toc-h2\">I testi: ostacolo invalicabile?</span><ul><li><span class=\"toc-h3\">Il font: un valido aiuto</span><li><span class=\"toc-h3\">Piccolo esempio pratico</span><li><span class=\"toc-h3\">L'importanta della sintassi</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Immagini per la didattica</span><ul><li><span class=\"toc-h2\">Foto e pittogrammi per imparare</span><ul><li><span class=\"toc-h3\">Esempio esercizio</span></li></ul></li></ul></li></ul>",
+    "toc": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">\n      <li>\n        Introduzione\n      </li>\n      <li>\n        Testi accessibili\n      <ol>\n        <li>\n          I testi: ostacolo invalicabile?\n        <ol>\n          <li>\n            Il font: un valido aiuto\n          </li>\n          <li>\n            Piccolo esempio pratico\n          </li>\n          <li>\n            L'importanza della sintassi\n          </li>\n        </ol>\n        </li>\n      </ol>\n      </li>\n      <li>\n        Immagini per la didattica\n      <ol>\n        <li>\n          Foto e pittogrammi per imparare\n        <ol>\n          <li>\n            Esempio esercizio\n          </li>\n        </ol>\n        </li>\n      </ol>\n      </li>\n      <li>\n        Pittogrammi e filmati\n      <ol>\n        <li>\n          Pittogrammi: un modo diverso di pensare la conoscenza\n        </li>\n        <li>\n          Video: apprendimento e divertimento\n        <ol>\n          <li>\n            Video d'esempio\n          </li>\n        </ol>\n        </li>\n      </ol>\n      </li>\n      <li>\n        Fonti\n      </li>\n    </ol>",
+    "headings": "<ul><li><span class=\"toc-h1\">Introduzione</span><ul><li><span class=\"toc-h2\">DSA: defininzione e concezione sociale</span></li></ul></li><li><span class=\"toc-h1\">Testi accessibili</span><ul><li><span class=\"toc-h2\">I testi: ostacolo invalicabile?</span><ul><li><span class=\"toc-h3\">Il font: un valido aiuto</span><li><span class=\"toc-h3\">Piccolo esempio pratico</span><li><span class=\"toc-h3\">L'importanza della sintassi</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Immagini per la didattica</span><ul><li><span class=\"toc-h2\">Foto e pittogrammi per imparare</span><ul><li><span class=\"toc-h3\">Esempio esercizio</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Pittogrammi e filmati</span><ul><li><span class=\"toc-h2\">Pittogrammi: un modo diverso di pensare la conoscenza</span><li><span class=\"toc-h2\">Video: apprendimento e divertimento</span><ul><li><span class=\"toc-h3\">Video d'esempio</span></li></ul></li></ul></li><li><span class=\"toc-h1\">Fonti</span><ul><li><span class=\"toc-h2\">Articoli</span><li><span class=\"toc-h2\">Siti</span></li></ul></li><li><span class=\"toc-h1\">Tavola dei Contenuti (TOC)</span><li><span class=\"toc-h1\">Punti di riferimento</span></li></ul>",
     "html": "<ol><li></li></ol>"
   },
   "data": {
-    "audios": [
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Introduzione_01.mp3\" type=\"audio/mpeg\" />\n  \n    Your browser does not support the audio element.</audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Introduzione_01.mp3",
-            "type": "audio/mpeg",
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Introduzione_01.mp3"
-          }
-        ],
-        "location": "Text/Introduzione.xhtml#epubcfi(/4/6)"
-      },
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Tecniche_testo_01.mp3",
-            "type": null,
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_01.mp3"
-          }
-        ],
-        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/8)"
-      },
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_02.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Tecniche_testo_02.mp3",
-            "type": null,
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_02.mp3"
-          }
-        ],
-        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/16)"
-      },
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_03.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Tecniche_testo_03.mp3",
-            "type": null,
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_03.mp3"
-          }
-        ],
-        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/28)"
-      },
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_04.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Tecniche_testo_04.mp3",
-            "type": null,
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_testo_04.mp3"
-          }
-        ],
-        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/36)"
-      },
-      {
-        "controls": true,
-        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_immagini_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
-        "tracks": [],
-        "src": [
-          {
-            "src": "OEBPS/Audio/Tecniche_immagini_01.mp3",
-            "type": null,
-            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-16615-tVz7sN71q0Hb/OEBPS/Audio/Tecniche_immagini_01.mp3"
-          }
-        ],
-        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/8)"
-      }
-    ],
     "images": [
+      {
+        "src": "OEBPS/Images/Copertina.jpg",
+        "role": null,
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" version=\"1.1\" viewBox=\"0 0 512 800\" width=\"100%\"><image width=\"512\" height=\"800\" xlink:href=\"../Images/Copertina.jpg\" alt=\"DSA: Manuale d'uso - Tecniche e consigli per lo sviluppo di contenuti accessibili\"/></svg>",
+        "location": "Text/Copertina.xhtml#epubcfi(/4/2/2)"
+      },
       {
         "src": "OEBPS/Images/Casa.png",
         "alt": "Immagine_casa",
@@ -128,6 +54,134 @@
         "role": null,
         "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Poliziotto.png\" alt=\"Immagine_poliziotto\" />",
         "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/18/16/2)"
+      },
+      {
+        "src": "OEBPS/Images/Pittogramma.jpg",
+        "alt": "Esempio-pittogramma",
+        "role": null,
+        "html": "<img xmlns=\"http://www.w3.org/1999/xhtml\" src=\"../Images/Pittogramma.jpg\" alt=\"Esempio-pittogramma\" />",
+        "location": "Text/Capitolo_tecniche_pittogrammi_video.xhtml#epubcfi(/4/16)"
+      }
+    ],
+    "audios": [
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Introduzione_01.mp3\" type=\"audio/mpeg\" />\n  \n    Your browser does not support the audio element.</audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Introduzione_01.mp3",
+            "type": "audio/mpeg",
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Introduzione_01.mp3"
+          }
+        ],
+        "location": "Text/Introduzione.xhtml#epubcfi(/4/6)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_01.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_testo_01.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/8)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_02.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_02.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_testo_02.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/16)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_03.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_03.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_testo_03.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/28)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_testo_04.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_testo_04.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_testo_04.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_testo.xhtml#epubcfi(/4/36)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\"><source src=\"../Audio/Tecniche_immagini_01.mp3\" />\n      Your browser does not support the audio element.\n    </audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_immagini_01.mp3",
+            "type": null,
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_immagini_01.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_immagini.xhtml#epubcfi(/4/8)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\">\n    <source src=\"../Audio/Tecniche_pittogrammi_video_01.mp3\" type=\"audio/mpeg\" />\n    Your browser does not support the audio element.</audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_pittogrammi_video_01.mp3",
+            "type": "audio/mpeg",
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_pittogrammi_video_01.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_pittogrammi_video.xhtml#epubcfi(/4/8)"
+      },
+      {
+        "controls": true,
+        "html": "<audio xmlns=\"http://www.w3.org/1999/xhtml\" controls=\"\">\n      <source src=\"../Audio/Tecniche_pittogrammi_video_02.mp3\" type=\"audio/mpeg\" />\n      Your browser does not support the audio element.</audio>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Audio/Tecniche_pittogrammi_video_02.mp3",
+            "type": "audio/mpeg",
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Audio/Tecniche_pittogrammi_video_02.mp3"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_pittogrammi_video.xhtml#epubcfi(/4/22)"
+      }
+    ],
+    "videos": [
+      {
+        "controls": true,
+        "html": "<video xmlns=\"http://www.w3.org/1999/xhtml\" width=\"640\" height=\"360\" controls=\"\">\n        <source src=\"../Video/Video_esempio.mp4\" type=\"video/mp4\" />\n        Your browser does not support the video element.\n      </video>",
+        "tracks": [],
+        "src": [
+          {
+            "src": "OEBPS/Video/Video_esempio.mp4",
+            "type": "video/mp4",
+            "path": "/var/folders/3g/spsq06897qd1186k6738j68c0000gn/T/tmp-21366-HUhtMTpyOe3U/OEBPS/Video/Video_esempio.mp4"
+          }
+        ],
+        "location": "Text/Capitolo_tecniche_pittogrammi_video.xhtml#epubcfi(/4/34)"
       }
     ]
   },
@@ -161,7 +215,7 @@
         "Image"
       ],
       "dc:identifier": "urn:uuid:bd9bf00e-7223-4a8c-9f88-4f6d531281cd",
-      "dcterms:modified": "2025-02-10T23:32:36Z",
+      "dcterms:modified": "2025-02-11T02:51:02Z",
       "schema:accessMode": [
         "textual",
         "visual",
@@ -236,30 +290,19 @@
       },
       "assertions": [],
       "earl:testSubject": {
+        "url": "Text/Copertina.xhtml",
+        "dct:title": "Copertina"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
         "url": "Text/Introduzione.xhtml",
         "dct:title": "Introduzione"
-      }
-    },
-    {
-      "@type": "earl:assertion",
-      "earl:result": {
-        "earl:outcome": "pass"
-      },
-      "assertions": [],
-      "earl:testSubject": {
-        "url": "Text/nav.xhtml",
-        "dct:title": "ePub NAV"
-      }
-    },
-    {
-      "@type": "earl:assertion",
-      "earl:result": {
-        "earl:outcome": "pass"
-      },
-      "assertions": [],
-      "earl:testSubject": {
-        "url": "Text/Fonti.xhtml",
-        "dct:title": "Fonti"
       }
     },
     {
@@ -282,6 +325,39 @@
       "earl:testSubject": {
         "url": "Text/Capitolo_tecniche_immagini.xhtml",
         "dct:title": "Tecniche-Immagini"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Capitolo_tecniche_pittogrammi_video.xhtml",
+        "dct:title": "Tecniche-Pittogrammi-Video"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/Fonti.xhtml",
+        "dct:title": "Fonti"
+      }
+    },
+    {
+      "@type": "earl:assertion",
+      "earl:result": {
+        "earl:outcome": "pass"
+      },
+      "assertions": [],
+      "earl:testSubject": {
+        "url": "Text/nav.xhtml",
+        "dct:title": "ePub NAV"
       }
     }
   ],
